@@ -429,4 +429,4 @@ Ce script est fourni à des fins éducatives et de recherche uniquement. L'utili
 
 ---
 
-*Documentation mise à jour : Juin 2024*
+*Documentation mise à jour : Juin 2025*

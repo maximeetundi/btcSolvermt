@@ -499,4 +499,4 @@ Ce solveur de puzzle Bitcoin v2.1 offre une solution complète et optimisée pou
 
 ---
 
-*Documentation générée pour le Solveur de Puzzle Bitcoin v2.1 - Juin 2024*
+*Documentation générée pour le Solveur de Puzzle Bitcoin v2.1 - Juin 2025*

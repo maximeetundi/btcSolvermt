@@ -1,9 +1,9 @@
-# Fichier de configuration pour le solveur de puzzle Bitcoin OPTIMISÉ
+# Fichier de configuration pour le solveur de puzzle Bitcoin OPTIMISÉ v2.1
 # Modifiez les valeurs ci-dessous puis relancez le programme.
 
 # Plage de recherche (peut être en décimal ou en hexadécimal préfixé par 0x)
-start=0x400000000000000000
-end=0x7fffffffffffffffff
+start=0x4c5ce114686a1336e07
+end=0x7ffffffffffffffffff
 
 # Nombre de coeurs CPU à utiliser (0 = détection automatique)
 cores=0
@@ -11,11 +11,21 @@ cores=0
 # Mode de recherche : 'random', 'sequential', 'smart', 'kangaroo'
 mode=smart
 
+# Mode de calcul : 'cpu', 'gpu', 'hybrid' (cpu+gpu)
+compute_mode=hybrid
+
+# Configuration GPU
+gpu_device_id=0
+gpu_batch_size=50000
+
+# Ratio CPU/GPU en mode hybride (0.5 = 50% CPU, 50% GPU)
+cpu_gpu_ratio=0.5
+
 # Après combien d'essais sauter vers un nouvel emplacement aléatoire
 switch_interval=1000000
 
 # Ratio de la taille du sous-intervalle (ex: 0.001 pour 0.1%)
-subinterval_ratio=0.1
+subinterval_ratio=0.001
 
 # Arrêter le programme dès qu'une clé est trouvée ? (true ou false)
 stop_on_find=true
@@ -39,3 +49,9 @@ checkpoint_interval=10000000
 
 telegram_bot_token=8165139245:AAGeULACnQhrJJ_H6GcCxYSZ9Tlik4DIywY
 telegram_chat_id=1897547972
+
+# Informations GPU détectées automatiquement :
+# GPU disponible : true
+# Nombre d'appareils : 1
+# CUDA disponible : false
+# OpenCL disponible : true
